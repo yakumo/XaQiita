@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{FDA9C1DC-5C4A-4353-9E5B-6A4B081FC567}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>XaQiita_Data</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ApiModel\ApiData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ApiModel\QiitaItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ApiModel\QiitaTag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ApiModel\QiitaUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\ApiDataUpdater.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\QiitaApiBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Api\QiitaItemsApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NetworkingMonitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ModelDispatcher.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MarkdownSharp\Markdown.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MarkdownSharp\MarkdownOld.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)ApiModel\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Api\" />
+    <Folder Include="$(MSBuildThisFileDirectory)MarkdownSharp\" />
+  </ItemGroup>
+</Project>
