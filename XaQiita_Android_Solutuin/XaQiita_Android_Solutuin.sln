@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XaQiita_Localize", "..\XaQiita_Localize\XaQiita_Localize.csproj", "{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XaQiita_Forms", "..\XaQiita_Forms\XaQiita_Forms.shproj", "{793FC981-C15E-4DAB-B020-A31D8A067496}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XaQiita_Data", "..\XaQiita_Data\XaQiita_Data.shproj", "{FDA9C1DC-5C4A-4353-9E5B-6A4B081FC567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XaQiita_Android", "..\XaQiita_Android\XaQiita_Android.csproj", "{187EBC0C-FC61-46A9-AD19-20D065957AA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{187EBC0C-FC61-46A9-AD19-20D065957AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187EBC0C-FC61-46A9-AD19-20D065957AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187EBC0C-FC61-46A9-AD19-20D065957AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187EBC0C-FC61-46A9-AD19-20D065957AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ..\XaQiita_Localize\XaQiita_Localize.csproj
+	EndGlobalSection
+EndGlobal

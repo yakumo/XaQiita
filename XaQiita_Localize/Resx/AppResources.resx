@@ -16,4 +16,7 @@
 	<data name="ApplicationName">
 		<value>XaQiita</value>
 	</data>
+	<data name="Menu">
+		<value>Menu</value>
+	</data>
 </root>

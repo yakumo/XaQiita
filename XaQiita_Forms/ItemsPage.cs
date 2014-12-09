@@ -22,7 +22,7 @@ namespace XaQiita_Forms
 						HorizontalOptions = LayoutOptions.FillAndExpand,
 						VerticalOptions = LayoutOptions.Start,
 						LineBreakMode = LineBreakMode.TailTruncation,
-						FontSize = 12,
+						FontSize = 18,
 						FontAttributes = FontAttributes.Bold,
 					};
 					titleLabel.SetBinding<QiitaItem> (Label.TextProperty, i => i.title);
@@ -30,7 +30,7 @@ namespace XaQiita_Forms
 					Label userLabel = new Label () {
 						HorizontalOptions = LayoutOptions.Start,
 						VerticalOptions = LayoutOptions.End,
-						FontSize = 9,
+						FontSize = 12,
 					};
 					userLabel.SetBinding<QiitaItem> (Label.TextProperty, i => i.user, BindingMode.OneWay, new UserToUserNameConverter ());
 
@@ -48,6 +48,8 @@ namespace XaQiita_Forms
 						VerticalOptions = LayoutOptions.End,
 						MinimumWidthRequest = 16,
 						MinimumHeightRequest = 16,
+						HeightRequest = 16,
+						WidthRequest = 16,
 					};
 					userImage.SetBinding<QiitaItem> (Image.SourceProperty, i => i.user.profile_image_url);
 
@@ -99,6 +101,7 @@ namespace XaQiita_Forms
 				ItemsSource = items,
 			};
 			listView.HasUnevenRows = true;
+			listView.RowHeight = 52;
 
 			Title = Localized.GetString ("ApplicationName");
 			Content = new StackLayout () {

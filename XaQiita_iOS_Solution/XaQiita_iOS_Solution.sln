@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XaQiita_iOS", "..\XaQiita_iOS\XaQiita_iOS.csproj", "{5DDCE274-88F1-43A0-AB7A-34E7A8590011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XaQiita_Localize", "..\XaQiita_Localize\XaQiita_Localize.csproj", "{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XaQiita_Forms", "..\XaQiita_Forms\XaQiita_Forms.shproj", "{793FC981-C15E-4DAB-B020-A31D8A067496}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XaQiita_Data", "..\XaQiita_Data\XaQiita_Data.shproj", "{FDA9C1DC-5C4A-4353-9E5B-6A4B081FC567}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.Debug|iPhone.Build.0 = Debug|iPhone
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.Release|iPhone.ActiveCfg = Release|iPhone
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.Release|iPhone.Build.0 = Release|iPhone
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{5DDCE274-88F1-43A0-AB7A-34E7A8590011}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Release|iPhone.Build.0 = Release|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{FC38ACE7-B3DA-4BC9-B5CE-A15D50B481A8}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ..\XaQiita_iOS\XaQiita_iOS.csproj
+	EndGlobalSection
+EndGlobal

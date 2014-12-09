@@ -7,7 +7,7 @@ namespace XaQiita_Forms
 	{
 		public static Page GetMainPage ()
 		{
-			return new NavigationPage (new ItemsPage ());
+			return new RootPage (); //new NavigationPage (new ItemsPage ());
 		}
 	}
 }

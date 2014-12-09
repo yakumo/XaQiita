@@ -47,6 +47,12 @@ namespace XaQiita_Localize {
             }
         }
         
+        internal static string Menu {
+            get {
+                return ResourceManager.GetString("Menu", resourceCulture);
+            }
+        }
+        
         internal static string ApplicationName {
             get {
                 return ResourceManager.GetString("ApplicationName", resourceCulture);

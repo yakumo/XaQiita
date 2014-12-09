@@ -16,4 +16,7 @@
 	<data name="ApplicationName">
 		<value>ざきーた</value>
 	</data>
+	<data name="Menu">
+		<value>メニュー</value>
+	</data>
 </root>

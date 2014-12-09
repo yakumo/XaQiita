@@ -14,6 +14,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)FormsDispatcher.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CustomView\GestureListView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MarkdownPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RootPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)CustomView\" />
