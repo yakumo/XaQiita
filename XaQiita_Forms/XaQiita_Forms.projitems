@@ -10,11 +10,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ItemsPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FormsDispatcher.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CustomView\GestureListView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MarkdownPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RootPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MenuPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ItemsView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)CustomView\" />

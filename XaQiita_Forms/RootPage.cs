@@ -6,14 +6,33 @@ namespace XaQiita_Forms
 {
 	public class RootPage : MasterDetailPage
 	{
+		ContentPage rootPage;
+
 		public RootPage ()
 		{
-			Master = new ContentPage () {
-				Title = Localized.GetString("Menu"),
-				Content = new ContentView(),
+			MenuPage mp = new MenuPage () {
+				Padding = new Thickness (0, Device.OnPlatform (20, 0, 0), 0, 0),
 			};
-			Detail = new NavigationPage (new ItemsPage ());
+			Master = mp;
+
+			rootPage = new ContentPage () {
+				Title = Localized.GetString ("ApplicationName"),
+			};
+			Detail = new NavigationPage (rootPage);
+
+			mp.MenuItems.Add (new MenuItem ("Items", null, new ItemsView()));
+			mp.PropertyChanged += (sender, e) => {
+				switch (e.PropertyName) {
+				case "SelectedMenuItem":
+					if (mp.SelectedMenuItem.SelectedAction != null) {
+						mp.SelectedMenuItem.SelectedAction.Invoke ();
+					}
+					if (mp.SelectedMenuItem.SelectedView != null) {
+						rootPage.Content = mp.SelectedMenuItem.SelectedView;
+					}
+					break;
+				}
+			};
 		}
 	}
 }
-

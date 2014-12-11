@@ -7,11 +7,11 @@ using XaQiita_Data;
 
 namespace XaQiita_Forms
 {
-	public class ItemsPage : ContentPage
+	public class ItemsView : StackLayout
 	{
 		private QiitaItems items = new QiitaItems();
 
-		public ItemsPage ()
+		public ItemsView ()
 		{
 			ListView listView = new GestureListView () {
 				HorizontalOptions = LayoutOptions.FillAndExpand,
@@ -99,19 +99,14 @@ namespace XaQiita_Forms
 					return ret;
 				}),
 				ItemsSource = items,
+				HasUnevenRows = true,
+				RowHeight = 52,
 			};
-			listView.HasUnevenRows = true;
-			listView.RowHeight = 52;
 
-			Title = Localized.GetString ("ApplicationName");
-			Content = new StackLayout () {
-				HorizontalOptions = LayoutOptions.FillAndExpand,
-				VerticalOptions = LayoutOptions.FillAndExpand,
+			HorizontalOptions = LayoutOptions.FillAndExpand;
+			VerticalOptions = LayoutOptions.FillAndExpand;
 
-				Children = {
-					listView,
-				},
-			};
+			Children.Add (listView);
 
 			ApiDataUpdater.ReloadItems (1).ContinueWith ((res) => {
 				new FormsDispatcher ().Invoke(()=>{
